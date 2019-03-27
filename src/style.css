@@ -1,0 +1,314 @@
+body {
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+.home {
+  background: #1c1c1c;
+}
+
+.imagen {
+  width: 100%;
+  height: 625px;
+  opacity: 0.5;
+}
+
+.carousel-caption {
+  top: 150px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.welcome {
+  display: flex;
+  color: #ffffff;
+  width: 930px;
+  height: 43px;
+  font-size: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ul {
+  list-style: none;
+  padding-left: 18px;
+  animation: cambiar 7s infinite;
+}
+
+@keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -42px;
+  }
+  50% {
+    margin-top: -42px;
+  }
+  55% {
+    margin-top: -82px;
+  }
+  80% {
+    margin-top: -82px;
+  }
+  85% {
+    margin-top: -42px;
+  }
+  95% {
+    margin-top: -42px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.btn {
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+nav {
+  background: rgba(3, 3, 3, 0.5);
+  transition: all 0.5s ease;
+}
+
+nav:hover {
+  background: rgba(240, 241, 244, 0.1);
+}
+
+.nav-item {
+  font-size: 18px;
+  padding: 0px 30px;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #1c1c1c;
+}
+
+.linea-encabezado {
+  width: 20%;
+  height: 3px;
+  background: #f0f1f4;
+}
+
+.list {
+  font-size: 18px;
+  color: #1c1c1c;
+}
+
+.title-name {
+  margin: auto;
+  padding: 15px 5px 5px 1px;
+  width: 10%;
+  background: #e23744;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.text1 {
+  color: #1c1c1c;
+  font-size: 14px;
+  width: 50%;
+  padding: 20px 0px 0px 0px;
+  margin: auto;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  padding: 0px 70px 20px 90px;
+}
+
+.container {
+  width: 30%;
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 1px solid #f0f1f4;
+  margin-bottom: 20px;
+}
+
+.h1 {
+  color: #1c1c1c;
+  font-size: 20px;
+}
+
+.buttons {
+  display: none;
+}
+
+.title {
+  width: 300px;
+  padding: 7px;
+  background: #e23744;
+  color: #ffffff;
+  border-bottom: 1px solid #e23744;
+  display: block;
+  cursor: pointer;
+}
+
+.title:hover {
+  background: #ffffff;
+  color: #e23744;
+}
+
+.content {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+  margin: 0;
+}
+
+.buttons:checked ~ .content {
+  height: auto;
+}
+
+.title-work, .title-contact {
+  margin: auto;
+  padding: 15px 5px 5px 1px;
+  width: 15%;
+  background: #f5a623;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.title-contact {
+  background: #1c1c1c;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 360px;
+  height: 250px;
+  background: #000;
+  margin: 5px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-imagen {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.card:hover .card-imagen {
+  opacity: 0.5;
+  transform: translateX(30%);
+}
+
+.details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background: #f5a623;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+
+.card:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+
+.center {
+  padding: 40px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-title {
+  margin: 0;
+  padding: 0;
+  color: #ff3636;
+  line-height: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.card-span {
+  font-size: 14px;
+  color: #262626;
+}
+
+-card-text {
+  margin: 10px 0;
+  padding: 0;
+  color: #262626;
+}
+
+.card-list {
+  margin: 10px auto 0;
+  padding: 0;
+  display: table;
+}
+
+.card-li {
+  list-style: none;
+  margin: 0 5px;
+  float: left;
+}
+
+#btn {
+  font-size: 12px;
+  margin: 0;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-image {
+  margin-top: 50px;
+  margin: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+.contact-title {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact-list {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background: #1c1c1c;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
