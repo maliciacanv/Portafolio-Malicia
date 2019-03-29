@@ -27,7 +27,7 @@ h1
 .welcome
         display: flex
         color: $white
-        width: 930px
+        width: 935px
         height: 43px
         font-size: 40px
         line-height: 40px
@@ -62,13 +62,88 @@ h1
 .btn
     margin-top: 80px
     font-size: 20px
+
+#btn-three, #btn-two
+        margin: 20px
+
+.h1-two
+  font-size: 45px
+  color: $white
+  margin-top: 5%
+
+.welcome-two
+        display: flex
+        color: $white
+        width: 935px
+        height: 40px
+        font-size: 30px
+        line-height: 40px
+        overflow: hidden
+        position: absolute
+
+.ul-two
+  list-style: none
+  padding-left: 20px
+  animation: cambia 9s infinite
+
+@keyframes cambia
+                    0% 
+                      margin-top: 0
+                    20% 
+                      margin-top: 0
+                    25% 
+                      margin-top: -40px
+                    50% 
+                      margin-top: -40px
+                    55% 
+                      margin-top: -80px
+                    80% 
+                      margin-top: -80px
+                    85% 
+                      margin-top: -40px
+                    95% 
+                      margin-top: -40px
+                    100% 
+                      margin-top: 0
+
+.welcome-three
+             margin: auto
+             display: table
+
+
+.h1-three 
+       position: relative 
+       float: left
+       color: $white
+       font-size: 2.5em
+       background: $black
+       width: 100%
+       padding: 15px
+       font-size: 45px
+       border-radius: 10px
+
+
+
+.h1-three .span-three
+          background: $black
+          color: $white
+          position: absolute
+          right: 0
+          width: 0
+          border-left: 1px solid 
+          animation: escribir 5s steps(30) infinite alternate
+
+@keyframes escribir
+                   0% 
+                    width: 100% 
+                   100% 
+                    width: 0 
+
+
      
 nav
   background: rgb(3, 3, 3, 0.5)
   transition: all 0.5s ease
-
-nav:hover
-  background: rgb(240,241,244, 0.1)
 
 .nav-item
       font-size: 18px
@@ -79,53 +154,32 @@ a
 a:hover 
      color: $black
 
-.linea-encabezado 
-              width: 20%
-              height: 3px
-              background: $gray
-
 .list
  font-size: 18px
  color: $black
 
-.title-name
-        margin: auto
-        padding: 15px 5px 5px 1px 
-        width: 10%
-        background: $rosa
-        text-align: center
-        color: $white
-        font-size: 20px
-
-
-.text1
-       color: $black
-       font-size: 14px
-       width: 50%
-       padding: 20px 0px 0px 0px
-       margin: auto
 
 .containers
     display: flex
     justify-content: center 
-    padding:  0px 70px 20px 90px
+    padding:  58px 0px 0px 0px
 
 .container
-         width: 30%
+         width: 33%
          font-family: $font
 
+.container-one
+          margin-left: 25%
+
 .photo
-    width: 200px
-    height: 200px
+    width: 130px
+    height: 130px
     border-radius: 100%
     border:1px solid $gray
-    margin-bottom: 20px
 
 .h1
   color: $black 
-  font-size: 20px
-
-
+  font-size: 16px
 
 .buttons
     display: none
@@ -153,7 +207,7 @@ a:hover
                     height: auto
                     
 
-.title-work, .title-contact
+.title-work
         margin: auto
         padding: 15px 5px 5px 1px 
         width: 15%
@@ -161,14 +215,12 @@ a:hover
         text-align: center
         color: $white
         font-size: 20px
-
-.title-contact
-        background: $black
  
 .container-cards
               display: flex
               flex-wrap: wrap
-              justify-content: center     
+              justify-content: center  
+              padding: 55px   
 
 .card 
     width: 360px
@@ -247,15 +299,14 @@ a:hover
 .container-contact
                 display: flex
                 justify-content: center
+                padding: 55px
 
 .contact-image
       margin-top: 50px
-      margin: 10px
-      width: 50%
+      width: 30%
       text-align: center
 
 .contact-title
-           margin-top: 200px
            text-align: center 
            font-size: 18px
 
@@ -263,7 +314,9 @@ a:hover
             text-align: center
             padding: 20px
 
-
 footer
      background: $black
      color: $white
+     position: absolute
+     bottom: 0
+     width: 100%
