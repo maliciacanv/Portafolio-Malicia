@@ -15,11 +15,11 @@ export const contactame = () => {
   <span>También podemos conectar mediante redes sociales:</span>
 </div>
   <div class="contact-list">
-   <img src="../imagenes/linkedin.png" />
-   <img src="../imagenes/logo-de-instagram.png" />
-   <img src="../imagenes/boton-del-logo-de-facebook.png" />
-   <img src="../imagenes/logo-de-github.png" />
-   <img src="../imagenes/boton-de-logo-del-twitter.png" />
+   <a href="https://www.linkedin.com/in/malicia-maruja-cante%C3%B1o/" target="blank"><img src="../imagenes/linkedin.png" class="list-img"/></a>
+   <a href="https://www.instagram.com/malimacvi/" target="blank"><img src="../imagenes/logo-de-instagram.png" class="list-img"/></a>
+   <a href="https://web.facebook.com/thelokitahh" target="blank"><img src="../imagenes/boton-del-logo-de-facebook.png" class="list-img"/></a>
+   <a href="https://github.com/maliciacanv" target="blank"><img src="../imagenes/logo-de-github.png" class="list-img"/></a>
+   <a href="https://twitter.com/CantenoMaruja" target="blank"><img src="../imagenes/boton-de-logo-del-twitter.png" class="list-img"/></a>
  </div>
 </div> `;
   const divElem = document.createElement('div');

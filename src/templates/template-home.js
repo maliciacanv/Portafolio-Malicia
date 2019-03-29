@@ -27,7 +27,7 @@ export const home = () => {
                 </div>
                 <div>
                   <button type="button" id="sobre-mí" class="btn btn-outline-danger">Algo más sobre mí <i class="fas fa-user"></i></button>
-                  <button type="button" class="btn btn-outline-warning">Descargar cv <i class="fas fa-angle-double-down"></i></button>
+                  <a href="../imagenes/MaliciaCanteño-cv.pdf" target:"blank"><button type="button" class="btn btn-outline-warning">Descargar cv <i class="fas fa-angle-double-down"></i></button></a>
                 </div>
               </div>
             </div>
@@ -55,18 +55,18 @@ export const home = () => {
                 <h1 class="h1-three">Si tienes alguna duda CONTACTAME aquí.<span class="span-three">&#160;</span></h1>
                   </div>
                   <div>
-                      <button type="button" id="btn-three" class="btn btn-outline-danger">Contactame  <i class="fas fa-angle-double-down"></i></button>
-                    </div>      
+                    <button type="button" id="btn-three" class="btn btn-outline-danger">Contactame  <i class="fas fa-angle-double-down"></i></button>
+                  </div>      
               </div>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span class="sr-only"></span>
           </a>
           <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span class="sr-only"></span>
           </a>
         </div>
       </div>

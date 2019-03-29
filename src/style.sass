@@ -1,12 +1,11 @@
 $white: #ffffff
-$font: Helvetica, Arial, Sans-serif
+$arialNarrow: arial narrow
+$helvetica: Helvetica
 $black: #1c1c1c
 $gray: #f0f1f4 
 $rosa: #e23744
 $yellow: #f5a623
 
-body
-    font-family: $font
 
 .home 
     background: $black
@@ -116,21 +115,21 @@ h1
        float: left
        color: $white
        font-size: 2.5em
-       background: $black
        width: 100%
        padding: 15px
        font-size: 45px
-       border-radius: 10px
 
+.carousel-indicators
+                  display: none
 
-
-.h1-three .span-three
-          background: $black
+.span-three
+          background: $white
           color: $white
           position: absolute
           right: 0
           width: 0
           border-left: 1px solid 
+          border-radius: 15px
           animation: escribir 5s steps(30) infinite alternate
 
 @keyframes escribir
@@ -138,38 +137,42 @@ h1
                     width: 100% 
                    100% 
                     width: 0 
-
-
      
 nav
-  background: rgb(3, 3, 3, 0.5)
-  transition: all 0.5s ease
+  background: rgb(3,3,3,0.9)  
+  transition: all 0.9s ease
+
+nav:active
+          background: $gray
 
 .nav-item
       font-size: 18px
       padding: 0px 30px
 a
  color: $white
+ font-family: $helvetica
 
-a:hover 
-     color: $black
-
+a:hover
+     color: $rosa
+      
 .list
- font-size: 18px
+ font-size: 16px
  color: $black
 
 
 .containers
+    background: $white
     display: flex
     justify-content: center 
-    padding:  58px 0px 0px 0px
+    padding:  65px 0px 0px 0px
 
 .container
          width: 33%
-         font-family: $font
+         font-family: $arialNarrow
+         font-size: 16px
 
 .container-one
-          margin-left: 25%
+          margin-left: 20%
 
 .photo
     width: 130px
@@ -178,11 +181,16 @@ a:hover
     border:1px solid $gray
 
 .h1
-  color: $black 
-  font-size: 16px
+  font-family: $helvetica
+  width: 50%
+  color: $rosa
+  font-size: 18px
 
 .buttons
     display: none
+
+.list
+    list-style: none
 
 .title
       width: 300px
@@ -220,11 +228,11 @@ a:hover
               display: flex
               flex-wrap: wrap
               justify-content: center  
-              padding: 55px   
+              padding: 60px   
 
 .card 
-    width: 360px
-    height: 250px
+    width: 375px
+    height: 240px
     background: #000
     margin: 5px
 
@@ -235,6 +243,7 @@ a:hover
 
 .card-imagen 
             width: 100%
+            height: 100%
             transition: .5s
 
 .card:hover .card-imagen
@@ -242,34 +251,35 @@ a:hover
                   transform: translateX(30%)
 
 .details 
-            position: absolute
-            top: 0
-            left: 0
-            width: 90% 
-            height: 100%
-            background: $yellow
-            transition: .5s
-            transform-origin: left
-            transform: perspective(2000px) rotateY(-90deg)
+      position: absolute
+      top: 0
+      left: 0
+      width: 90% 
+      height: 100%
+      background: $yellow
+      transition: .5s
+      transform-origin: left
+      transform: perspective(2000px) rotateY(-90deg)
 
 .card:hover .details 
             transform: perspective(2000px) rotateY(0deg)
 
 .center 
-                  padding: 40px
-                  text-align: center
-                  background: #fff
-                  position: absolute
-                  top: 50%
-                  transform: translateY(-50%)
+      padding: 40px
+      text-align: center
+      background: #fff
+      position: absolute
+      top: 50%
+      font-family: $arialNarrow
+      transform: translateY(-50%)
 
 .card-title
-                  margin: 0
-                  padding: 0
-                  color: #ff3636
-                  line-height: 20px
-                  font-size: 20px
-                  text-transform: uppercase
+      margin: 0
+      padding: 0
+      color: #ff3636
+      line-height: 20px
+      font-size: 20px
+      text-transform: uppercase
 
 .card-span 
                   font-size: 14px
@@ -289,12 +299,20 @@ a:hover
 
 .card-li
     list-style: none
-    margin: 0 5px
+    margin: 0 10px 
     float: left
 
 #btn
    font-size: 12px
    margin: 0
+
+.contact
+      background: $gray
+      width: 100%
+      height: 625px
+      font-family: $arialNarrow
+      font-size: 22px
+
 
 .container-contact
                 display: flex
@@ -308,14 +326,22 @@ a:hover
 
 .contact-title
            text-align: center 
-           font-size: 18px
 
 .contact-list
             text-align: center
             padding: 20px
 
+.list-img
+       width: 3.5%
+       margin: 10px
+
+.list-img:hover
+              background: $yellow
+              border-radius: 50%
+
+
 footer
-     background: $black
+     background: rgb(3,3,3,0.9)
      color: $white
      position: absolute
      bottom: 0

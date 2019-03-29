@@ -1,7 +1,3 @@
-body {
-  font-family: Helvetica, Arial, Sans-serif;
-}
-
 .home {
   background: #1c1c1c;
 }
@@ -139,20 +135,23 @@ h1 {
   float: left;
   color: #ffffff;
   font-size: 2.5em;
-  background: #1c1c1c;
   width: 100%;
   padding: 15px;
   font-size: 45px;
-  border-radius: 10px;
 }
 
-.h1-three .span-three {
-  background: #1c1c1c;
+.carousel-indicators {
+  display: none;
+}
+
+.span-three {
+  background: #ffffff;
   color: #ffffff;
   position: absolute;
   right: 0;
   width: 0;
   border-left: 1px solid;
+  border-radius: 15px;
   animation: escribir 5s steps(30) infinite alternate;
 }
 
@@ -165,8 +164,12 @@ h1 {
   }
 }
 nav {
-  background: rgba(3, 3, 3, 0.5);
-  transition: all 0.5s ease;
+  background: rgba(3, 3, 3, 0.9);
+  transition: all 0.9s ease;
+}
+
+nav:active {
+  background: #f0f1f4;
 }
 
 .nav-item {
@@ -176,30 +179,33 @@ nav {
 
 a {
   color: #ffffff;
+  font-family: Helvetica;
 }
 
 a:hover {
-  color: #1c1c1c;
+  color: #e23744;
 }
 
 .list {
-  font-size: 18px;
+  font-size: 16px;
   color: #1c1c1c;
 }
 
 .containers {
+  background: #ffffff;
   display: flex;
   justify-content: center;
-  padding: 58px 0px 0px 0px;
+  padding: 65px 0px 0px 0px;
 }
 
 .container {
   width: 33%;
-  font-family: Helvetica, Arial, Sans-serif;
+  font-family: arial narrow;
+  font-size: 16px;
 }
 
 .container-one {
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
 .photo {
@@ -210,12 +216,18 @@ a:hover {
 }
 
 .h1 {
-  color: #1c1c1c;
-  font-size: 16px;
+  font-family: Helvetica;
+  width: 50%;
+  color: #e23744;
+  font-size: 18px;
 }
 
 .buttons {
   display: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .title {
@@ -258,12 +270,12 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 55px;
+  padding: 60px;
 }
 
 .card {
-  width: 360px;
-  height: 250px;
+  width: 375px;
+  height: 240px;
   background: #000;
   margin: 5px;
 }
@@ -276,6 +288,7 @@ a:hover {
 
 .card-imagen {
   width: 100%;
+  height: 100%;
   transition: 0.5s;
 }
 
@@ -306,6 +319,7 @@ a:hover {
   background: #fff;
   position: absolute;
   top: 50%;
+  font-family: arial narrow;
   transform: translateY(-50%);
 }
 
@@ -337,13 +351,21 @@ a:hover {
 
 .card-li {
   list-style: none;
-  margin: 0 5px;
+  margin: 0 10px;
   float: left;
 }
 
 #btn {
   font-size: 12px;
   margin: 0;
+}
+
+.contact {
+  background: #f0f1f4;
+  width: 100%;
+  height: 625px;
+  font-family: arial narrow;
+  font-size: 22px;
 }
 
 .container-contact {
@@ -360,7 +382,6 @@ a:hover {
 
 .contact-title {
   text-align: center;
-  font-size: 18px;
 }
 
 .contact-list {
@@ -368,8 +389,18 @@ a:hover {
   padding: 20px;
 }
 
+.list-img {
+  width: 3.5%;
+  margin: 10px;
+}
+
+.list-img:hover {
+  background: #f5a623;
+  border-radius: 50%;
+}
+
 footer {
-  background: #1c1c1c;
+  background: rgba(3, 3, 3, 0.9);
   color: #ffffff;
   position: absolute;
   bottom: 0;
