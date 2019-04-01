@@ -48,16 +48,6 @@ export const home = () => {
               </div>
             </div>
             </div>
-            <div class="carousel-item">
-              <img class ="imagen" src="../imagenes/imagenFondo5.png" alt="imagen-3">
-              <div class="carousel-caption d-none d-md-block">
-                  <div class="welcome-three">
-                <h1 class="h1-three">Si tienes alguna duda CONTACTAME aquí.<span class="span-three">&#160;</span></h1>
-                  </div>
-                  <div>
-                    <button type="button" id="btn-three" class="btn btn-outline-danger">Contactame  <i class="fas fa-angle-double-down"></i></button>
-                  </div>      
-              </div>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -82,11 +72,6 @@ export const home = () => {
   const btnProyectos = divElem.querySelector('#btn-two');
   btnProyectos.addEventListener('click', () => {
     changeHash('/proyectos');
-  });
-
-  const btnContacto = divElem.querySelector('#btn-three');
-  btnContacto.addEventListener('click', () => {
-    changeHash('/contactame');
   });
   return divElem;
 };
