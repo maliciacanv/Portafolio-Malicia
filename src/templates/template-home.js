@@ -14,7 +14,7 @@ export const home = () => {
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class ="imagen" src="../imagenes/imagenFondo3.png" alt="foto">
+              <img class ="imagen" src="../imagenes/collage.png" alt="foto">
               <div class="carousel-caption">
                 <h1>¡Hola! me llamo Malicia Canteño y</h1>
                 <div class = "welcome">
@@ -49,7 +49,7 @@ export const home = () => {
             </div>
             </div>
             <div class="carousel-item">
-              <img class ="imagen" src="../imagenes/imagenFondo3.png" alt="imagen-3">
+              <img class ="imagen" src="../imagenes/imagenFondo5.png" alt="imagen-3">
               <div class="carousel-caption d-none d-md-block">
                   <div class="welcome-three">
                 <h1 class="h1-three">Si tienes alguna duda CONTACTAME aquí.<span class="span-three">&#160;</span></h1>

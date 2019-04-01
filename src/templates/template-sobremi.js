@@ -1,6 +1,5 @@
 export const sobreMi = () => {
   const templateSobreMi = `
-    <div class="sobre-mí">
       <div class="containers"> 
       <div class="container">
       <div class="container-one">    
@@ -11,8 +10,7 @@ export const sobreMi = () => {
               <li type=square>Colaborativa</li>
               <li type=square>Observadora</li>
               <li type=square>Curiosa</li>
-            </ul>
-      <div> 
+            </ul> 
         <h1 class="h1">RECONOCIMIENTOS</h1>
       <div> 
         <input type="checkbox" class="buttons" id="item1" name="acordeon">
@@ -32,7 +30,6 @@ export const sobreMi = () => {
           a mis compañeras con los testeos de las funciones de la plataforma de firebase.</p>
       </div>
       </div>
-      </div>
       </div> 
       <div class="container">
         <span>Mi nombre es Malicia, vivo en el Callao Lima-Peru soy front-end developer egresada de la 8 octaba promoción del bootcamp 
@@ -44,7 +41,7 @@ export const sobreMi = () => {
           no hay algo que no se pueda aprender, hacer o crear.</span><br/><br/>
         <h1 class="h1">INTERESES</h1>
         <span>
-          Me interesa mucho programción para inteligencia artificial, el diseño web, el voluntariado y el emprendimiento.<br/> Me encanta viajar conocer nuevas culturas y costumbres, me fascina el girasol y compartir momentos 
+          Me interesa el diseño web, el voluntariado y el emprendimiento.<br/> Me encanta viajar conocer nuevas culturas y costumbres, me fascina el girasol y compartir momentos 
           con familia y amigos.</span>
       </div>  
       <div class="container">
@@ -70,7 +67,6 @@ export const sobreMi = () => {
           <li><i class="fab fa-adobe"></i> Adobe Indesing</li>
           <li><i class="fas fa-adjust"></i> Figma</li>
         </ul>
-      </div>
       </div>
     </div>`;
   const divElem = document.createElement('div');
