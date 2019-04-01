@@ -3,7 +3,7 @@ export const sobreMi = () => {
       <div class="containers"> 
       <div class="container">
       <div class="container-one">    
-        <img src="../imagenes/img_3396.jpg" class="photo" />
+        <img src="../imagenes/img_3395.jpg" class="photo" />
           <h1 class="h1">Personalidad</h1>
             <ul> 
               <li type=square>Alegre</li> 
