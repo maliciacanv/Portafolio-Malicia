@@ -2,11 +2,12 @@ import { home } from './templates/template-home.js';
 import { sobreMi } from './templates/template-sobremi.js';
 import { proyectos } from './templates/template.proyectos.js';
 import { contactame } from './templates/template-contactame.js';
+import { skills } from './templates/template-skill.js';
 
 const changeTmp = (hash) => {
   if (hash === '#/' || hash === '' || hash === '#') {
     return viewTmp('#/home');
-  } else if (hash === '#/sobreMi' || hash === '#/proyectos' || hash === '#/contactame') {
+  } else if (hash === '#/sobreMi' || hash === '#/skills' || hash === '#/proyectos' || hash === '#/contactame') {
     return viewTmp(hash);
   } else {
     return viewTmp('#/home');
@@ -23,7 +24,10 @@ const viewTmp = (routers) => {
     break;
   case 'proyectos':
     section.appendChild(proyectos());
-    break;      
+    break;
+  case 'skills':
+    section.appendChild(skills());
+    break;       
   case 'sobreMi':
     section.appendChild(sobreMi());
     break;      
