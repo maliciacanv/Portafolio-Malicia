@@ -61,7 +61,7 @@ export const proyectos = () => {
       </div>
       <div class="card">
       <div class="image">
-        <img src="../imagenes/" class="card-imagen"/>
+        <img src="../imagenes/prototypo.png" class="card-imagen"/>
       </div>
       <div class="details">
       <div class="center">
