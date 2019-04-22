@@ -6,15 +6,15 @@ export const sobreMi = () => {
       <div class="containers"> 
       <div class="container">
       <div class="container-one">    
-          <h1 class="h1">PERSONALIDAD</h1>
+          <h1 class="h1">HABILIDADES BLANDAS</h1>
             <ul> 
               <li type=square>Innovadora</li> 
               <li type=square>Colaborativa</li>
               <li type=square>Observadora</li>
               <li type=square>Curiosa</li>
-              <li type=square>Alegre</li> 
+              <li type=square>Dinámica</li>
             </ul> 
-        <h1 class="h1">RECONOCIMIENTOS</h1>
+        <h1 class="h1">RECONOCIMIENTOS DE LABORATORIA</h1>
       <div> 
         <input type="checkbox" class="buttons" id="item1" name="acordeon">
         <label for="item1" class="title"><i class="fas fa-chevron-right"></i> Perseverancia & pasión</li></label>
@@ -48,7 +48,7 @@ export const sobreMi = () => {
         <span>
           Me interesa investigar y aprender nuevas tecnologías. Por eso a  futuro aspiro crear soluciones tecnológicos con inteligencia artificial.<br/><br/>
         
-          En mí interes personal considero importante el voluntariado y el emprendimiento, ya que compartir y ayudar me hace mejor persona. Me encanta viajar conocer nuevas culturas y costumbres, me fascinan los girasoles y compartir momentos 
+          En mi interes personal considero importante el voluntariado y el emprendimiento, ya que compartir y ayudar me hace mejor persona. Me encanta viajar conocer nuevas culturas y costumbres, me fascinan los girasoles y compartir momentos 
           con familia y amigos.</span>
         <div>
     </div>`;

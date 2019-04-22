@@ -16,7 +16,7 @@ export const home = () => {
             <div class="carousel-item active">
               <img class ="imagen" src="../imagenes/imagenFondo5.png" alt="foto">
               <div class="carousel-caption">
-                <h1>¡Hola! me llamo Malicia Canteño y</h1>
+                <h1>¡Hola! Me llamo Malicia Canteño y</h1>
                 <div class = "welcome">
                   <p>Soy front-end developer y</p>
                   <ul class="ul">
