@@ -27,7 +27,7 @@ export const home = () => {
                 </div>
                 <div>
                   <button type="button" id="sobre-mí" class="btn btn-outline-danger">Algo más sobre mí <i class="fas fa-user"></i></button>
-                  <a href="../imagenes/Malicia-CV.pdf" target:"blank"><button type="button" id="descargar-cv" class="btn btn-outline-warning">Descargar cv <i class="fas fa-angle-double-down"></i></button></a>
+                  <a href="../imagenes/Malicia-cv.pdf" target:"blank"><button type="button" id="descargar-cv" class="btn btn-outline-warning">Descargar cv <i class="fas fa-angle-double-down"></i></button></a>
                 </div>
               </div>
             </div>

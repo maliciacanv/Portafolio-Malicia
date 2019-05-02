@@ -61,7 +61,7 @@ export const proyectos = () => {
       </div>
       <div class="card">
       <div class="image">
-        <img src="../imagenes/fondo1.png" class="card-imagen"/>
+        <img src="../imagenes/logo.png" class="card-imagen"/>
       </div>
       <div class="details">
       <div class="center">
@@ -71,8 +71,8 @@ export const proyectos = () => {
         <br/>
         Tecnología utilizada: Framework Angular, Firebase Cloud Firestore, TypeScript, Bootstrap 4, Testing con Karma.</p>
         <ul class="card-list">
-        <li class="card-li"><a href="" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
-        <li class="card-li"><a href="" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
+        <li class="card-li"><a href="https://burgerqueen-807e7.firebaseapp.com/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
+        <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-fe-burger-queen" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
         </ul>
       </div>
       </div>
