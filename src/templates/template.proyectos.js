@@ -11,8 +11,7 @@ export const proyectos = () => {
         <h1 class="card-title">DATA LOVERS<br><span class="card-span">LEAGE OF LEGENDS</span></h1>
         <p class="card-text">El reto Data Lovers, esta conformado por 2 personas y la tarea es crear una página web.
         La temática es el videojuego League of legends, para ello hicimos una encuesta online a 20 personas para saber que información 
-        les interesaría ver de dicho videojuego, por eso la página league of legends permite al jugador ver todos los campeones, filtrar por roles, 
-        ordenarlos ascendente y descendente, muestra un top 10 de los mejores y la estadística según su nivel de vida.
+        les interesaría ver de dicho videojuego, por eso la página league of legends permite al jugador conocer el campeón de su interes.
         <br/>
         Tecnología utilizada: HTML 5, JavaScript, Archivo JSON, Métodos de arrays y objetos, CSS 3, Templates, Testing, Responsive Desing..</p>
         <ul class="card-list">
@@ -30,10 +29,7 @@ export const proyectos = () => {
       <div class="center">
         <h1 class="card-title">Red social<br><span class="card-span">Agogo</span></h1>
         <p class="card-text">El reto Red Social, esta conformado por 3 personas. Despues de una encuesta online a 20 personas, creamos la red social llamada Agogo que tiene como finalidad que los usuarios puedean dar y recibir 
-        recomendaciones a traves de post y tiene las siguientes funcionalidades:
-        1.Login con google, facebook y twitter, y un registro.
-        2.Crear un post con su nombre y foto, opción de público o privado.
-        3.Editar, eliminar y dar likes a posts.<br/>
+        recomendaciones a traves de post.<br/>
         Tecnología utilizada: Firebase Authentication y Cloud Firestore, HTML 5, JavaScript, CSS 3, Modules Import y export, Testing, SPA, Templates, Responsive Desing.</p>
         <ul class="card-list">
           <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-social-network/src/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
