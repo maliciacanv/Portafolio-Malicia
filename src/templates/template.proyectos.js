@@ -65,7 +65,7 @@ export const proyectos = () => {
         <p class="card-text">El reto Burger Queen, es individual y fue desarrollado con Framework Angular, la web app es para un pequeño restaurante de hamburguesas, 
         que está creciendo y necesitan una interfaz en la que puedan tomar pedidos usando una tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente.
         <br/>
-        Tecnología utilizada: Framework Angular, Firebase Cloud Firestore, TypeScript, Bootstrap 4, Testing con Karma.</p>
+        Tecnología utilizada: Framework Angular 7, Firebase Cloud Firestore, TypeScript, Bootstrap 4, Testing con Karma.</p>
         <ul class="card-list">
         <li class="card-li"><a href="https://burgerqueen-807e7.firebaseapp.com/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
         <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-fe-burger-queen" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
@@ -73,9 +73,28 @@ export const proyectos = () => {
       </div>
       </div>
       </div>
+      <div class="card">
+      <div class="image">
+        <img src="../imagenes/comunal1.png" class="card-imagen"/>
+      </div>
+      <div class="details">
+      <div class="center">
+        <h1 class="card-title">Reto Comunal en el Talent Fest<br><span class="card-span">Comunal</span></h1>
+        <p class="card-text">En squad de 5 compañeras, en 36 horas, nos tocó desarrollar un mvp para la mejora de atención de visitantes a los locales de comunal.
+        Normalmente lxs office manager son lxs encargados de hacer el resgitro y aproximadamente se demoran 10 minutos en registrar a un invitado.
+        Para ello creamos 2 web app: uno para el usuario (visitante), y el otro para el office manager, para un mejor control y manejo de los usuarios.
+        </p>Tecnología utilizada: Framework Angular 7, CSS 3, Bootstrap 4  </p>
+        <a class="link" href="https://maliciacanv.github.io/comunal-co/" target="blank">Ver sitio web (Usuario)</a>
+        <a class="link" href="https://comunal-co.firebaseapp.com/" target="blank">Ver sitio web (Office manager)</a>
+        <ul class="card-list">
+        <a class="link-repo" href="https://github.com/maliciacanv/comunal-co/" target="blank">Ver repositorio (Usuario)</a>
+        <a class="link-repo" href="https://github.com/maliciacanv/office-maganement/tree/master/my-app" target="blank">Ver repositorio (Office manager)</a>
+        </ul>
+      </div>
+      </div>
+      </div>
       </div>
       </div>`;
-
   const divElem = document.createElement('div');
   divElem.innerHTML = templateProyectos;
   return divElem;
