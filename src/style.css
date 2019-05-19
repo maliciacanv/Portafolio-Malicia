@@ -485,9 +485,8 @@
     color: #ffffff;
   }
 
-  .list li i {
-    width: 30px;
-    height: 30px;
+  .list img {
+    margin: 5px;
   }
 
   .link {
