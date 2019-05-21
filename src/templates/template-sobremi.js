@@ -8,11 +8,12 @@ export const sobreMi = () => {
       <div class="container-one">    
           <h1 class="h1">HABILIDADES BLANDAS</h1>
             <ul> 
-              <li type=square>Innovadora</li> 
-              <li type=square>Colaborativa</li>
-              <li type=square>Observadora</li>
-              <li type=square>Curiosa</li>
-              <li type=square>Dinámica</li>
+              <li type=square>Adaptabilidad</li> 
+              <li type=square>Empatía</li>
+              <li type=square>Autoaprendizaje</li>
+              <li type=square>Trabajo grupal</li>
+              <li type=square>Escucha activa</li>
+              <li type=square>Solución de problemas</li>
             </ul> 
         <h1 class="h1">RECONOCIMIENTOS DE LABORATORIA</h1>
       <div> 
