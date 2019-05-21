@@ -225,6 +225,7 @@
     background: #F7F2F7;
     border: solid 1px #F7F2F7;
     padding: 10px 10px 10px 10px;
+    border-radius: 5px;
   }
 
   .pt {
@@ -315,6 +316,11 @@
     justify-content: center;
   }
 
+  .list img {
+    display: block;
+    margin: auto;
+  }
+
   .list li {
     margin: 5px;
     background: #F7F2F7;
@@ -322,6 +328,7 @@
     height: 15vh;
     text-align: center;
     padding: 10px 10px 10px 10px;
+    border-radius: 5px;
   }
 
   .container-cards {
@@ -335,11 +342,12 @@
   }
 
   .card {
-    width: 43%;
-    height: 320px;
+    width: 45%;
+    height: 310px;
     background: #000;
     margin-left: 40px;
     margin-top: 10px;
+    border-radius: 5px;
   }
 
   .image {
@@ -383,6 +391,7 @@
     top: 50%;
     font-family: Helvetica;
     transform: translateY(-50%);
+    border-radius: 5px;
   }
 
   .card-title {
@@ -454,11 +463,14 @@
   }
 
   .contact-image {
-    width: 300px;
+    width: 420px;
     height: 150px;
     margin: 50px;
+    padding: 20px;
     text-align: center;
     font-family: Helvetica;
+    background: #F7F2F7;
+    border-radius: 5px;
   }
 
   .contact-title {

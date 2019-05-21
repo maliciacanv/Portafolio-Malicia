@@ -2,95 +2,110 @@ export const proyectos = () => {
   const templateProyectos = `
     <div class="work">
     <div class="container-cards">
-      <div class="card">
-      <div class="image">
-        <img src="../imagenes/dtalover.png" class="card-imagen"/>
-      </div>
-      <div class="details">
-      <div class="center">
-        <h1 class="card-title">DATA LOVERS<br><span class="card-span">LEAGE OF LEGENDS</span></h1>
-        <p class="card-text">El reto Data Lovers, esta conformado por 2 personas y la tarea es crear una página web.
-        La temática es el videojuego League of legends, para ello hicimos una encuesta online a 20 personas para saber que información 
-        les interesaría ver de dicho videojuego, por eso la página league of legends permite al jugador conocer el campeón de su interes.
-        <br/>
-        Tecnología utilizada: HTML 5, JavaScript, Archivo JSON, Métodos de arrays y objetos, CSS 3, Templates, Testing, Responsive Desing..</p>
-        <ul class="card-list">
-          <li class="card-li"><a href="https://github.com/maliciacanv/lim-2018-11-bc-core-am-data-lovers/src/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
-          <li class="card-li"><a href="https://maliciacanv.github.io/lim-2018-11-bc-core-am-data-lovers" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></button></a></li>              
-        </ul>
-      </div>
-      </div>
-      </div>
-      <div class="card">
-      <div class="image">
-        <img src="../imagenes/red.png" class="card-imagen"/>
-      </div>
-      <div class="details">
-      <div class="center">
-        <h1 class="card-title">Red social<br><span class="card-span">Agogo</span></h1>
-        <p class="card-text">El reto Red Social, esta conformado por 3 personas. Despues de una encuesta online a 20 personas, creamos la red social llamada Agogo que tiene como finalidad que los usuarios puedean dar y recibir 
-        recomendaciones a traves de post.<br/>
-        Tecnología utilizada: Firebase Authentication y Cloud Firestore, HTML 5, JavaScript, CSS 3, Modules Import y export, Testing, SPA, Templates, Responsive Desing.</p>
-        <ul class="card-list">
-          <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-social-network/src/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
-          <li class="card-li"><a href="https://gabrieladiazb.github.io/LIM008-social-network" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></button></a></li>              
-        </ul>
-      </div>
-      </div>
-      </div>
-      <div class="card">
-      <div class="image">
-        <img src="../imagenes/libreria.png" class="card-imagen"/>
-      </div>
-      <div class="details">
-      <div class="center">
-        <h1 class="card-title">MARKDOWN<br><span class="card-span">md-links</span></h1>
-        <p class="card-text">El reto Markdown Links, es individual y la tarea es crear una librería para programadores, que cumple la función de analizar la ruta ingresada e identificar los archivos
-        con extención Md, recopilar los links y mostrarlos, además tiene opcion para validar y calcular estadística de los links.        
-        <br/>
-        Tecnología utilizada: Node js, Librería Fetch, JavaScript, Funciones Asíncronas Promesas, Testing.</p>
-        <ul class="card-list">
-          <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-fe-md-links" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></button></a></li>
-        </ul>
-      </div>
-      </div>
-      </div>
-      <div class="card">
-      <div class="image">
-        <img src="../imagenes/logo.png" class="card-imagen"/>
-      </div>
-      <div class="details">
-      <div class="center">
-        <h1 class="card-title">Burger Queen<br><span class="card-span">BBQ</span></h1>
-        <p class="card-text">El reto Burger Queen, es individual y fue desarrollado con Framework Angular, la web app es para un pequeño restaurante de hamburguesas, 
-        que está creciendo y necesitan una interfaz en la que puedan tomar pedidos usando una tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente.
-        <br/>
-        Tecnología utilizada: Framework Angular 7, Firebase Cloud Firestore, TypeScript, Bootstrap 4, Testing con Karma.</p>
-        <ul class="card-list">
-        <li class="card-li"><a href="https://burgerqueen-807e7.firebaseapp.com/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
-        <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-fe-burger-queen" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
-        </ul>
-      </div>
-      </div>
-      </div>
-      <div class="card">
-      <div class="image">
-        <img src="../imagenes/comunal1.PNG" class="card-imagen"/>
-      </div>
-      <div class="details">
-      <div class="center">
-        <h1 class="card-title">Reto Comunal en el Talent Fest<br><span class="card-span">Comunal</span></h1>
-        <p class="card-text">En squad de 5 compañeras, en 36 horas, nos tocó desarrollar un mvp para la mejora de atención de visitantes a los locales de comunal.
-        Normalmente lxs office manager son lxs encargados de hacer el resgitro y aproximadamente se demoran 10 minutos en registrar a un invitado.
-        Para ello creamos 2 web app: uno para el usuario (visitante), y el otro para el office manager, para un mejor control y manejo de los usuarios.
-        </p>Tecnología utilizada: Framework Angular 7, CSS 3, Bootstrap 4  </p>
-        <a class="link" href="https://maliciacanv.github.io/comunal-co/" target="blank">Ver sitio web (Usuario)</a>
-        <a class="link" href="https://comunal-co.firebaseapp.com/" target="blank">Ver sitio web (Office manager)</a>
-        <ul class="card-list">
-        <a class="link-repo" href="https://github.com/maliciacanv/comunal-co/" target="blank">Ver repositorio (Usuario)</a>
-        <a class="link-repo" href="https://github.com/maliciacanv/office-maganement/tree/master/my-app" target="blank">Ver repositorio (Office manager)</a>
-        </ul>
-      </div>
+    <div class="card">
+     <div class="image">
+      <img src="../imagenes/comunal1.PNG" class="card-imagen"/>
+     </div>
+    <div class="details">
+<div class="center">
+  <h1 class="card-title">Reto Comunal en la hackaton TFL19<br><span class="card-span">Comunal 2°do puesto</span></h1>
+  <p class="card-text">En squad de 5 compañeras, en 36 horas, nos tocó desarrollar un mvp para la mejora de atención de visitantes a los locales de comunal.
+  Normalmente lxs office manager son lxs encargados de hacer el registro y aprox se demoran 10 minutos en registrar a un visitante.
+  Para ello creamos 2 web app: Para el vistante donde podra registrarse y enviar automaticamente el aviso de su llegada.
+  <br/>Tecnología utilizada: Framework Angular 7, CSS 3, Bootstrap 4</p>
+  <ul class="card-list">
+  <li class="card-li"><a href="https://maliciacanv.github.io/comunal-co/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web<i class="far fa-newspaper"></i></button></a></li>
+  <li class="card-li"><a href="https://github.com/maliciacanv/comunal-co/" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio<i class="fab fa-github"></i></i></button></a></li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="image">
+ <img src="../imagenes/comunal2.PNG" class="card-imagen"/>
+</div>
+<div class="details">
+<div class="center">
+<h1 class="card-title">Reto Comunal en la hackaton TFL19<br><span class="card-span">Comunal 2°do puesto</span></h1>
+<p class="card-text">Para el office manager donde podra visualizar los visitantes registrados del día a día, y donde podra filtrar datos, realizar un registro manual y hacer una invitación personalizada.
+
+<br/>Tecnología utilizada: Framework Angular 7, CSS 3, Bootstrap 4</p>
+<ul class="card-list">
+<li class="card-li"><a href="https://comunal-co.firebaseapp.com/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web<i class="far fa-newspaper"></i></button></a></li>
+<li class="card-li"><a href="https://github.com/maliciacanv/office-maganement/tree/master/my-app" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="image">
+  <img src="../imagenes/logo.png" class="card-imagen"/>
+</div>
+<div class="details">
+<div class="center">
+  <h1 class="card-title">Burger Queen<br><span class="card-span">BBQ</span></h1>
+  <p class="card-text">El reto Burger Queen, es individual y fue desarrollado con Framework Angular, la web app es para un pequeño restaurante de hamburguesas, 
+  que está creciendo y necesitan una interfaz en la que puedan tomar pedidos usando una tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente.
+  <br/>
+  Tecnología utilizada: Framework Angular 7, Firebase Cloud Firestore, TypeScript, Bootstrap 4, Testing con Karma.</p>
+  <ul class="card-list">
+  <li class="card-li"><a href="https://burgerqueen-807e7.firebaseapp.com/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
+  <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-fe-burger-queen" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="image">
+  <img src="../imagenes/libreria.png" class="card-imagen"/>
+</div>
+<div class="details">
+<div class="center">
+  <h1 class="card-title">MARKDOWN<br><span class="card-span">md-links</span></h1>
+  <p class="card-text">El reto Markdown Links, es individual y la tarea es crear una librería para programadores, que cumple la función de analizar la ruta ingresada e identificar los archivos
+  con extención Md, recopilar los links y mostrarlos, además tiene opcion para validar y calcular estadística de los links.        
+  <br/>
+  Tecnología utilizada: Node js, Librería Fetch, JavaScript, Funciones Asíncronas Promesas, Testing.</p>
+  <ul class="card-list">
+    <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-fe-md-links" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></button></a></li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="image">
+  <img src="../imagenes/red.png" class="card-imagen"/>
+</div>
+<div class="details">
+<div class="center">
+  <h1 class="card-title">Red social<br><span class="card-span">Agogo</span></h1>
+  <p class="card-text">El reto Red Social, esta conformado por 3 personas. Despues de una encuesta online a 20 personas, creamos la red social llamada Agogo que tiene como finalidad que los usuarios puedean dar y recibir 
+  recomendaciones a traves de post.<br/>
+  Tecnología utilizada: Firebase Authentication y Cloud Firestore, HTML 5, JavaScript, CSS 3, Modules Import y export, Testing, SPA, Templates, Responsive Desing.</p>
+  <ul class="card-list">
+    <li class="card-li"><a href="https://github.com/maliciacanv/LIM008-social-network/src/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
+    <li class="card-li"><a href="https://gabrieladiazb.github.io/LIM008-social-network" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></button></a></li>              
+  </ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="image">
+  <img src="../imagenes/dtalover.png" class="card-imagen"/>
+</div>
+<div class="details">
+<div class="center">
+  <h1 class="card-title">DATA LOVERS<br><span class="card-span">LEAGE OF LEGENDS</span></h1>
+  <p class="card-text">El reto Data Lovers, esta conformado por 2 personas y la tarea es crear una página web.
+  La temática es el videojuego League of legends, para ello hicimos una encuesta online a 20 personas para saber que información 
+  les interesaría ver de dicho videojuego, por eso la página league of legends permite al jugador conocer el campeón de su interes.
+  <br/>
+  Tecnología utilizada: HTML 5, JavaScript, Archivo JSON, Métodos de arrays y objetos, CSS 3, Templates, Testing, Responsive Desing..</p>
+  <ul class="card-list">
+    <li class="card-li"><a href="https://github.com/maliciacanv/lim-2018-11-bc-core-am-data-lovers/src/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
+    <li class="card-li"><a href="https://maliciacanv.github.io/lim-2018-11-bc-core-am-data-lovers" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></button></a></li>              
+  </ul>
+  </div>
       </div>
       </div>
       </div>
@@ -99,3 +114,6 @@ export const proyectos = () => {
   divElem.innerHTML = templateProyectos;
   return divElem;
 };
+
+
+

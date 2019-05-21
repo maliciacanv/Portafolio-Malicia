@@ -4,8 +4,10 @@ export const skills = () => {
           <div class="skill">
           <h1 class="h1-skill">SKILL SET</h1>
           <ul class="list"> 
-            <li><img src="../imagenes/favicon.ico" /><span> Framework Angular 7</span></li>
-            <li><img src="../imagenes/typescript.png" /><span> TypeScript</span></li>
+            <li><img src="../imagenes/favicon.ico" />
+            <span> Framework Angular 7</span></li>
+            <li><img src="../imagenes/typescript.png" />
+            <span> TypeScript</span></li>
             <li><img src="../imagenes/javascript.png" /><span> JavaScript</span></li>
             <li><img src="../imagenes/nodejs.png" /><span> Node js</span></li>
             <li><img src="../imagenes/html-5.png" /><span> HTML 5 </span></li>
