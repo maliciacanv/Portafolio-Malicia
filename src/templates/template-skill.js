@@ -4,26 +4,26 @@ export const skills = () => {
           <div class="skill">
           <h1 class="h1-skill">SKILL SET</h1>
           <ul class="list"> 
-            <li><img src="../imagenes/favicon.ico" /> Framework Angular 7</li>
-            <li><img src="../imagenes/typescript.png" /> TypeScript</li>
-            <li><img src="../imagenes/javascript.png" /> JavaScript</li>
-            <li><img src="../imagenes/nodejs.png" /> Node js</li>
-            <li><img src="../imagenes/html-5.png" /> HTML 5 </li>
-            <li><img src="../imagenes/css-3.png" /> CSS 3 </li>
-            <li><img src="../imagenes/sass.png" /> Procesador/ Sass</li>
-            <li><img src="../imagenes/bootstrap.png" /> Bootstrap 4</li>
-            <li><img src="../imagenes/compartir.png" /> Librería Fetch</li>
-            <li><img src="../imagenes/base-de-datos.png" /> Firebase Authentication, Cloud Firestore, Storage</li>
-            <li><img src="../imagenes/pizarra.png" /> Metodología agíl / Scrum - Tablero kanban</li>
+            <li><img src="../imagenes/favicon.ico" /><span> Framework Angular 7</span></li>
+            <li><img src="../imagenes/typescript.png" /><span> TypeScript</span></li>
+            <li><img src="../imagenes/javascript.png" /><span> JavaScript</span></li>
+            <li><img src="../imagenes/nodejs.png" /><span> Node js</span></li>
+            <li><img src="../imagenes/html-5.png" /><span> HTML 5 </span></li>
+            <li><img src="../imagenes/css-3.png" /><span> CSS 3</span> </li>
+            <li><img src="../imagenes/sass.png" /><span> Procesador/ Sass</span></li>
+            <li><img src="../imagenes/bootstrap.png" /><span> Bootstrap 4</span></li>
+            <li><img src="../imagenes/compartir.png" /><span> Librería Fetch</span></li>
+            <li><img src="../imagenes/base-de-datos.png" /><span> Firebase Authentication, Cloud Firestore, Storage</span></li>
+            <li><img src="../imagenes/pizarra.png" /><span> Metodología agíl / Scrum - Tablero kanban</span></li>
           </ul>
           </div>
           <div class="skill">
           <h1 class="h1-skill">TOOLS</h1>
           <ul class="list">
-            <li><img src="../imagenes/github.png" /> Git</li>
-            <li><img src="../imagenes/logo-git.png" /> Git Hub</li>
-            <li><img src="../imagenes/ilustrador.png" /> Adobe Ilustrator</li>
-            <li><img src="../imagenes/imagen.png" /> Editor de diseño web Figma</li>
+            <li><img src="../imagenes/github.png" /><span> Git</span></li>
+            <li><img src="../imagenes/logo-git.png" /><span> Git Hub</span></li>
+            <li><img src="../imagenes/ilustrador.png" /><span> Adobe Ilustrator</span></li>
+            <li><img src="../imagenes/imagen.png" /><span> Editor de diseño web Figma</span></li>
           </ul>
           </div>
          </div>`;

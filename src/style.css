@@ -222,6 +222,9 @@
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 10%;
+    background: #F7F2F7;
+    border: solid 1px #F7F2F7;
+    padding: 10px 10px 10px 10px;
   }
 
   .pt {
@@ -249,7 +252,7 @@
 
   .list {
     list-style: none;
-    margin-left: 20%;
+    margin-left: 40%;
   }
 
   .title {
@@ -288,20 +291,13 @@
     font-size: 20px;
   }
 
-  .container-skill {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
   .skill {
-    margin-top: 6%;
-    width: 500px;
-    height: 400px;
+    margin-top: 5%;
     font-family: Helvetica;
     font-size: 16px;
     margin-left: 10px;
-    margin-bottom: 8%;
+    width: 1200px;
+    margin-bottom: 5%;
   }
 
   .h1-skill {
@@ -314,6 +310,18 @@
   .list {
     margin-left: 0px;
     margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .list li {
+    margin: 5px;
+    background: #F7F2F7;
+    width: 17%;
+    height: 15vh;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
   }
 
   .container-cards {
@@ -483,10 +491,6 @@
 
   .footer-copyright {
     color: #ffffff;
-  }
-
-  .list img {
-    margin: 5px;
   }
 
   .link {
