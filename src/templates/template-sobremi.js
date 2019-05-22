@@ -1,20 +1,20 @@
 export const sobreMi = () => {
   const templateSobreMi = `
       <div class="pt">
-      <img src="../imagenes/foto1.png" class="photo" />
+        <img src="../imagenes/foto1.png" class="photo" />
       </div>
       <div class="containers"> 
       <div class="container">
       <div class="container-one">    
-          <h1 class="h1">HABILIDADES BLANDAS</h1>
-            <ul> 
-              <li type=square>Adaptabilidad</li> 
-              <li type=square>Empatía</li>
-              <li type=square>Autoaprendizaje</li>
-              <li type=square>Trabajo grupal</li>
-              <li type=square>Escucha activa</li>
-              <li type=square>Solución de problemas</li>
-            </ul> 
+        <h1 class="h1">HABILIDADES BLANDAS</h1>
+        <ul> 
+          <li type=square>Adaptabilidad</li> 
+          <li type=square>Empatía</li>
+          <li type=square>Autoaprendizaje</li>
+          <li type=square>Trabajo grupal</li>
+          <li type=square>Escucha activa</li>
+          <li type=square>Solución de problemas</li>
+        </ul> 
         <h1 class="h1">RECONOCIMIENTOS DE LABORATORIA</h1>
       <div> 
         <input type="checkbox" class="buttons" id="item1" name="acordeon">
@@ -22,7 +22,8 @@ export const sobreMi = () => {
         <p class="content">
           Pin otorgado a la más perseverante y apasionada del proyecto data lovers en Laboratoria.
           El pin lo recibí en el proyecto data lovers, al esforzarme y no darme por vencida
-          a pesar de lo difícil que era aprender los métodos de arrays y objetos para poder manipular data de un archivo JSON,
+          a pesar de lo difícil que era aprender los métodos de arrays y objetos para poder manipular 
+          data de un archivo JSON,
           culminando así con éxito el proyecto a tiempo.</p>
       </div>
       <div> 
@@ -36,8 +37,8 @@ export const sobreMi = () => {
       </div>  
       </div> 
       <div class="container">
-        <span>Hola soy Malicia, vivo en el Callao Lima-Perú soy front-end developer, egresada de la octava promoción del bootcamp 
-          de Laboratoria.</span><br/>
+        <span>Hola soy Malicia, vivo en el Callao Lima-Perú soy front-end developer, egresada de la octava promoción del 
+        bootcamp de Laboratoria.</span><br/>
         <span>Busco formar parte de un equipo de emprendedores apasionados y determinados a cambiar el mundo a través de la tecnología y el diseño.
           Soy una persona apasionada y comprometida con las metas y objetivos que me trazo. Tiendo a adaptarme rápido, y en una cultura en crecimiento e innovación tecnológica 
           y metodologías ágiles seria ideal, ya que fuí capacitada para ello.</span><br/>
@@ -47,12 +48,11 @@ export const sobreMi = () => {
         <div class="container">
         <h1 class="h1">INTERESES</h1>
         <span>
-          Me interesa investigar y aprender nuevas tecnologías. Y a futuro aspiro crear soluciones tecnológicas con inteligencia artificial.<br/><br/>
-        
+          Me interesa investigar y aprender nuevas tecnologías. Y a futuro aspiro crear soluciones tecnológicas con inteligencia artificial.<br/><br/>        
           En mi interes personal considero importante el voluntariado y el emprendimiento, ya que compartir y ayudar me hace mejor persona. Me encanta viajar conocer nuevas culturas y costumbres, me fascinan los girasoles y compartir momentos 
           con familia y amigos.</span>
         <div>
-    </div>`;
+      </div>`;
   const divElem = document.createElement('div');
   divElem.innerHTML = templateSobreMi;
   return divElem;

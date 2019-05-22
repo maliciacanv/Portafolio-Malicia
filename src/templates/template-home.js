@@ -5,59 +5,59 @@ const changeHash = (hash) => {
 export const home = () => { 
   const templateOne = `
     <div class="home">  
-    <div class="bd-example">
+      <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>     
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class ="imagen" src="../imagenes/imagenFondo5.png" alt="foto">
-              <div class="carousel-caption">
-                <h1>¡Hola! Me llamo Malicia Canteño y</h1>
-                <div class = "welcome">
-                  <p>Soy front-end developer y</p>
-                  <ul class="ul">
-                    <li>creo en el poder del código</li> 
-                    <li>me fascina el diseño web</li>
-                    <li>me encanta viajar</li>
-                  </ul>
-                </div>
-                <div>
-                  <button type="button" id="sobre-mí" class="btn btn-outline-danger">Algo más sobre mí <i class="fas fa-user"></i></button>
-                  <a href="../imagenes/Malicia-cv.pdf" download="cv-Malicia-Canteño" target="blank"><button type="button" id="descargar-cv" class="btn btn-outline-warning">Descargar cv <i class="fas fa-angle-double-down"></i></button></a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class ="imagen" src="../imagenes/imgenFondo7.png" alt="imagen-2">
-              <div class="carousel-caption">
-              <div class="welcome-two">
-                <p>[ No soy ni un Ninja,</p> 
-                <ul class="ul-two">
-                  <li>ni CEO <span>pero... ]</span></li
-                  <li>ni una CoFunder de una Startup <span>pero... ]</span></li>
-                  <li>ni code Evangelista <span>pero... ]</span></li>
-                </ul>  
-                </div>
-                <h1 class="h1-two">¡ME APASIONA LO QUE HAGO!</h1>
-              <div>
-                <button type="button" id="btn-two" class="btn btn-outline-warning">Ver mis trabajos <i class="fas fa-angle-double-down"></i></button>
-              </div>
-            </div>
-            </div>
-            </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class ="imagen" src="../imagenes/imagenFondo5.png" alt="foto">
+          <div class="carousel-caption">
+            <h1>¡Hola! Me llamo Malicia Canteño y</h1>
+          <div class = "welcome">
+            <p>Soy front-end developer y</p>
+              <ul class="ul">
+                <li>creo en el poder del código</li> 
+                <li>me fascina el diseño web</li>
+                <li>me encanta viajar</li>
+              </ul>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <div>
+            <button type="button" id="sobre-mí" class="btn btn-outline-danger">Algo más sobre mí <i class="fas fa-user"></i></button>
+              <a href="../imagenes/Malicia-cv.pdf" download="cv-Malicia-Canteño" target="blank"><button type="button" id="descargar-cv" class="btn btn-outline-warning">Descargar cv <i class="fas fa-angle-double-down"></i></button></a>
+          </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img class ="imagen" src="../imagenes/imgenFondo7.png" alt="imagen-2">
+          <div class="carousel-caption">
+          <div class="welcome-two">
+            <p>[ No soy ni un Ninja,</p> 
+              <ul class="ul-two">
+                <li>ni CEO <span>pero... ]</span></li
+                <li>ni una CoFunder de una Startup <span>pero... ]</span></li>
+                <li>ni code Evangelista <span>pero... ]</span></li>
+              </ul>  
+          </div>
+            <h1 class="h1-two">¡ME APASIONA LO QUE HAGO!</h1>
+          <div>
+            <button type="button" id="btn-two" class="btn btn-outline-warning">Ver mis trabajos <i class="fas fa-angle-double-down"></i></button>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only"></span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only"></span>
-          </a>
+            </a>
         </div>
       </div>
     </div>`;
