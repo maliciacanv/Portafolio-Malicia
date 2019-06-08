@@ -14,8 +14,8 @@ export const proyectos = () => {
                 Para ello creamos 2 web app: Para el vistante donde podrá registrarse y enviar automáticamente el aviso de su llegada.
               <br/>Tecnología utilizada: Framework Angular 7, TypeScript, CSS 3, Bootstrap 4</p>
               <ul class="card-list">
-                <li class="card-li"><a href="https://maliciacanv.github.io/comunal-co/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web<i class="far fa-newspaper"></i></button></a></li>
-                <li class="card-li"><a href="https://github.com/maliciacanv/comunal-co/" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio<i class="fab fa-github"></i></i></button></a></li>
+                <li class="card-li"><a href="https://maliciacanv.github.io/comunal-co/" target="blank"> <button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
+                <li class="card-li"><a href="https://github.com/maliciacanv/comunal-co/" target="blank"> <button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
               </ul>
             </div>
           </div>
@@ -31,7 +31,7 @@ export const proyectos = () => {
             <br/>Tecnología utilizada: Framework Angular 7, CSS 3, Bootstrap 4
             </p>
             <ul class="card-list">
-              <li class="card-li"><a href="https://comunal-co.firebaseapp.com/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web<i class="far fa-newspaper"></i></button></a></li>
+              <li class="card-li"><a href="https://comunal-co.firebaseapp.com/" target="blank"><button type="button" id="btn-web" class="btn btn-outline-secondary">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
               <li class="card-li"><a href="https://github.com/maliciacanv/office-maganement/tree/master/my-app" target="blank"><button type="button" id="btn" class="btn btn-outline-warning">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
             </ul>
           </div>
