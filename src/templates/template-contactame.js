@@ -2,7 +2,7 @@ export const contactame = () => {
   const templateContacto = `
   <div class="container-contact">
   <p class="contact-title">Si tienes alguna duda o un reto, no dudes en contactarme. 
-  </br>Juntos lo resolvemos!!!</p>
+  Juntos lo resolvemos!!!</p>
 
     <div class="contact-image">
       <img src="../imagenes/llamada-telefonica (1).png" class="contact-img" />
