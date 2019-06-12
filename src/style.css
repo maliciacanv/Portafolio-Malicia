@@ -222,10 +222,11 @@
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 10%;
-    background: #F7F2F7;
+    background: #ffffff;
     border: solid 1px #F7F2F7;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
+    box-shadow: 5px 10px #F7F2F7;
   }
 
   .pt {
@@ -293,7 +294,6 @@
   }
 
   .container-skill {
-    margin-right: 5%;
     margin-left: 5%;
   }
 
@@ -328,12 +328,14 @@
 
   .list li {
     margin: 5px;
-    background: #F7F2F7;
+    background: #ffffff;
     width: 17%;
     height: 15vh;
     text-align: center;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
+    border: 1px solid #F7F2F7;
+    box-shadow: 5px 8px #F7F2F7;
   }
 
   .container-cards {
@@ -347,13 +349,14 @@
   }
 
   .card {
-    width: 85vh;
-    height: 60vh;
+    width: 90vh;
+    height: 65vh;
     background: #000;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 5px;
-    border: 2px solid #f5a623;
+    border: 1px solid #CACFD2;
+    box-shadow: 3px 7px #CACFD2;
   }
 
   .image {
@@ -379,7 +382,7 @@
     left: 0;
     width: 90%;
     height: 100%;
-    background: white;
+    background: #ffffff;
     transition: 0.5s;
     transform-origin: left;
     transform: perspective(2000px) rotateY(-90deg);
@@ -461,11 +464,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 80px;
   }
 
   .number {
     font-size: 25px;
+    color: #e23744;
   }
 
   .contact-image {
@@ -475,15 +478,32 @@
     padding: 20px;
     text-align: center;
     font-family: Helvetica;
-    background: #F7F2F7;
+    background: #ffffff;
     border-radius: 5px;
+    border: 1px solid #F7F2F7;
+    box-shadow: 3px 5px #F7F2F7;
   }
 
   .contact-title {
     text-align: center;
     color: #1c1c1c;
     font-family: Helvetica;
-    font-size: 33px;
+    font-size: 20px;
+    margin-top: 7%;
+  }
+
+  .contact-sub-title {
+    text-align: center;
+    color: #1c1c1c;
+    font-family: Helvetica;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  hr {
+    background: #e23744;
+    width: 10%;
+    padding: 2px;
   }
 
   .contact-list {

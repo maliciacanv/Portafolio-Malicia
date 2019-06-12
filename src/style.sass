@@ -191,10 +191,11 @@ $yellow: #f5a623
                                 font-size: 16px
                                 margin-top: 10px
                                 margin-bottom: 10%
-                                background: #F7F2F7  
+                                background: $white  
                                 border: solid 1px #F7F2F7 
                                 padding: 10px 10px 10px 10px
                                 border-radius: 5px
+                                box-shadow: 5px 10px #F7F2F7 
                                 
                               .pt 
                                 text-align: center
@@ -253,7 +254,6 @@ $yellow: #f5a623
                                 font-size: 20px
 
                               .container-skill
-                                margin-right: 5%
                                 margin-left: 5%
                       
 
@@ -285,12 +285,14 @@ $yellow: #f5a623
 
                               .list li 
                                margin: 5px
-                               background: #F7F2F7
+                               background: $white
                                width: 17%
                                height: 15vh
                                text-align: center
                                padding: 10px 10px 10px 10px
                                border-radius: 5px
+                               border: 1px solid #F7F2F7
+                               box-shadow: 5px 8px #F7F2F7
                                
 
 
@@ -304,13 +306,14 @@ $yellow: #f5a623
                                 margin-bottom: 5%
 
                               .card 
-                                width: 85vh
-                                height: 60vh
+                                width: 90vh
+                                height: 65vh
                                 background: #000
                                 margin-left: 40px
-                                margin-top: 10px
+                                margin-top: 15px
                                 border-radius: 5px
-                                border: 2px solid $yellow
+                                border: 1px solid #CACFD2
+                                box-shadow: 3px 7px #CACFD2
 
                               .image
                                 width: 100%
@@ -332,7 +335,7 @@ $yellow: #f5a623
                                 left: 0
                                 width: 90%
                                 height: 100%
-                                background: white
+                                background: $white
                                 transition: .5s
                                 transform-origin: left
                                 transform: perspective(2000px) rotateY(-90deg)
@@ -404,10 +407,10 @@ $yellow: #f5a623
                                 display: flex
                                 flex-wrap: wrap 
                                 justify-content: center
-                                margin-top: 80px
 
                               .number
                                 font-size: 25px
+                                color: $rosa
 
                               .contact-image
                                 width: 420px
@@ -416,21 +419,36 @@ $yellow: #f5a623
                                 padding: 20px
                                 text-align: center
                                 font-family: $helvetica
-                                background: #F7F2F7
+                                background: $white 
                                 border-radius: 5px
+                                border: 1px solid #F7F2F7 
+                                box-shadow: 3px 5px #F7F2F7 
 
 
                               .contact-title
                                 text-align: center
                                 color: $black
                                 font-family: $helvetica 
-                                font-size: 33px
+                                font-size: 20px
+                                margin-top: 7%
+
+                              .contact-sub-title
+                                text-align: center
+                                color: $black
+                                font-family: $helvetica 
+                                font-size: 20px
+                                margin-top: 5px
+
+                              
+                              hr 
+                               background: $rosa
+                               width: 10%
+                               padding: 2px
 
                               .contact-list
                                 text-align: center
                                 padding: 20px
                                 margin-bottom: 100px
-
 
                               .list-img
                                 margin: 10px

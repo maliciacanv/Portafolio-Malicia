@@ -14,7 +14,7 @@ export const skills = () => {
           <li><img src="../imagenes/sass.png" /><span> Procesador/ Sass</span></li>
           <li><img src="../imagenes/bootstrap.png" /><span> Bootstrap 4</span></li>
           <li><img src="../imagenes/compartir.png" /><span> Fetch / Api Rest</span></li>
-          <li><img src="../imagenes/base-de-datos.png" /><span> Firebase Authentication, Cloud Firestore, Storage</span></li>
+          <li><img src="../imagenes/base-de-datos.png" /><span> Firebase Auth, base de datos</span></li>
           <li><img src="../imagenes/pizarra.png" /><span> Metodología agíl / Scrum - Tablero kanban</span></li>
         </ul>
       </div>

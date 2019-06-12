@@ -39,21 +39,29 @@ export const sobreMi = () => {
       <div class="container">
         <span>Hola soy Malicia, vivo en el Callao Lima-Perú soy front-end developer, egresada de la octava promoción del 
         bootcamp de Laboratoria.</span><br/>
-        <span>Busco formar parte de un equipo de emprendedores apasionados y determinados a cambiar el mundo a través de la tecnología y el diseño.
-          Soy una persona apasionada y comprometida con las metas y objetivos que me trazo. Tiendo a adaptarme rápido, y en una cultura en crecimiento e innovación tecnológica 
-          y metodologías ágiles seria ideal, ya que fuí capacitada para ello.</span><br/>
-        <span>Con una laptop y conexión a internet 
-          no hay algo que no se pueda aprender, hacer o crear.</span>
-        </div>  
-        <div class="container">
+        <span>Busco formar parte de un equipo de emprendedores apasionados y determinados a cambiar el mundo a través 
+          de la tecnología y el diseño.
+          Soy una persona apasionada y comprometida con las metas y objetivos que me trazo. Tiendo a adaptarme rápido, 
+          y en una cultura en crecimiento e innovación tecnológica 
+          con metodologías ágiles seria ideal, ya que fuí capacitada para ello, y si no, pues aprendemos juntos.
+        </span>
+        <br/>
+        <span>Estoy segura que con una laptop y conexión a internet no hay algo que no se pueda aprender, hacer o crear.</span>
+      </div>  
+      <div class="container">
         <h1 class="h1">INTERESES</h1>
         <span>
-          Me interesa investigar y aprender nuevas tecnologías. Y a futuro aspiro crear soluciones tecnológicas con inteligencia artificial.<br/><br/>        
-          En mi interes personal considero importante el voluntariado y el emprendimiento, ya que compartir y ayudar me hace mejor persona. Me encanta viajar conocer nuevas culturas y costumbres, me fascinan los girasoles y compartir momentos 
-          con familia y amigos.</span>
-        <div>
-      </div>`;
-  const divElem = document.createElement('div');
-  divElem.innerHTML = templateSobreMi;
-  return divElem;
+          Me interesa el mundo de la transformación digital por eso estoy constantemente investigando y aprendiendo nuevas herramientas 
+          tecnologías. Y a futuro aspiro crear soluciones tecnológicas 
+          con inteligencia artificial. 
+          <br/><br/>        
+          En mi interes personal considero importante el voluntariado y el emprendimiento. Me encanta viajar, conocer 
+          nuevas culturas y costumbres, me fascinan los girasoles, compartir momentos 
+          con familia y amigos.
+        </span>
+      <div>
+  </div>`;
+    const divElem = document.createElement('div');
+    divElem.innerHTML = templateSobreMi;
+    return divElem;
 };
