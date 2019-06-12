@@ -10,7 +10,7 @@ export const sobreMi = () => {
         <ul> 
           <li type=square>Adaptabilidad</li> 
           <li type=square>Empatía</li>
-          <li type=square>Autoaprendizaje</li>
+          <li type=square>Auto-aprendizaje</li>
           <li type=square>Trabajo grupal</li>
           <li type=square>Escucha activa</li>
           <li type=square>Solución de problemas</li>
@@ -41,11 +41,12 @@ export const sobreMi = () => {
         bootcamp de Laboratoria.</span><br/>
         <span>Busco formar parte de un equipo de emprendedores apasionados y determinados a cambiar el mundo a través 
           de la tecnología y el diseño.
+          <br/>
           Soy una persona apasionada y comprometida con las metas y objetivos que me trazo. Tiendo a adaptarme rápido, 
           y en una cultura en crecimiento e innovación tecnológica 
           con metodologías ágiles seria ideal, ya que fuí capacitada para ello, y si no, pues aprendemos juntos.
         </span>
-        <br/>
+        <br/><br/>
         <span>Estoy segura que con una laptop y conexión a internet no hay algo que no se pueda aprender, hacer o crear.</span>
       </div>  
       <div class="container">

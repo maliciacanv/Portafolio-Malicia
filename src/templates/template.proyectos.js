@@ -30,7 +30,7 @@ export const proyectos = () => {
               <p class="card-text">En squad de 5 compañeras, en 36 horas, nos tocó desarrollar un mvp para la mejora de atención de visitantes a los locales de comunal.
                 Normalmente lxs office manager son lxs encargados de hacer el registro y aprox se demoran 10 minutos en registrar a un visitante.
                 Para ello creamos 2 web app: Para el vistante donde podrá registrarse y enviar automáticamente el aviso de su llegada.</p>
-              <p>Tecnología utilizada: Framework Angular 7, TypeScript, CSS 3, Bootstrap 4.</p>
+              <p >Tecnología utilizada: Framework Angular 7, TypeScript, CSS 3, Bootstrap 4.</p>
               <ul class="card-list">
                 <li class="card-li"><a href="https://maliciacanv.github.io/comunal-co/" target="blank"> <button type="button" id="btn" class="btn btn-outline-warning">Ver sitio web <i class="far fa-newspaper"></i></button></a></li>
                 <li class="card-li"><a href="https://github.com/maliciacanv/comunal-co/" target="blank"> <button type="button" id="btn-web" class="btn btn-outline-secondary">Ver repositorio <i class="fab fa-github"></i></i></button></a></li>
